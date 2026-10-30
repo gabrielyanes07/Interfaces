@@ -1,3 +1,4 @@
+package model;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -26,7 +27,7 @@ public class Dashboard {
         Arrays.asList("Repasar Java", "Leer sobre MVC"),160));
 
         widgets.add(new AlertWidget(
-            5, "Entrega del proyecto mañana", "Alta", 80
+            5, "Entrega de trabajo de interfaces", "Alta", 80
         ));
 
         widgets.add(new AlertWidget(
@@ -37,11 +38,11 @@ public class Dashboard {
         widgets.add(new ClockWidget(8, 50));
 
         widgets.add(new QuoteWidget(
-            9, "Cada paso cuenta.", "Anónimo", 30
+            9, "Cada paso cuenta.",  30
         ));
 
         widgets.add(new QuoteWidget(
-            10, "Aprender requiere práctica.", "Anónimo", 35
+            10, "Aprender requiere práctica.",  35
         ));
     }
 

@@ -1,6 +1,7 @@
+package model;
 import javax.swing.JComponent;
 
-public interface Renderizable {
+public interface Renderizable extends Comparable<Renderizable>{
     
         int getId();
 
