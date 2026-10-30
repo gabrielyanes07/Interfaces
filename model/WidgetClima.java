@@ -1,3 +1,4 @@
+package model;
 public class WidgetClima extends WidgetBase implements Interactivo{
     private final String ciudad;
     private final double temperaturaCelsius;

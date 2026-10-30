@@ -1,4 +1,6 @@
+package model;
 import javax.swing.*;
+
 import java.awt.BorderLayout;
 
 public abstract class WidgetBase implements Renderizable{

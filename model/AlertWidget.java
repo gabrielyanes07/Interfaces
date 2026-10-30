@@ -1,3 +1,5 @@
+package model;
+
 public class AlertWidget extends WidgetBase implements Interactivo{
     private final String mensaje;
     private final String prioridad;
